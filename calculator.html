@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <style>
+        .calculator-container
+        {
+            height: 400px;
+            width: 300px;
+            background-color: #df9f9f;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+            padding: 2px;
+        }
+        .calculator-brand
+        {
+            color: white;
+            margin-left: 20px;
+            font-size: 30px;
+            height: 5x;
+        }
+        .calculator-screen
+        {
+            display: block;
+            height: 30px;
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+        }
+        .button-container
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            
+        }
+        .calculattor-buttons
+        {
+            background-color: white;
+            height: 40px;
+            width: 40px;
+            font-size: 23px;
+            border-radius: 13px;
+            border: 2px solid gray;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 1px 2px 2px red;
+            margin-bottom: 8px;
+        }
+        .calculattor-buttons:hover{
+            border-radius: 30px;
+            box-shadow: 1px 3px 3px white;
+            transition: 0.5s;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator-container">
+        <p class="calculator-brand">
+            Casio
+        </p>
+        <input type="text" class="calculator-screen" />
+        <div class="button-container">
+            <button class="calculattor-buttons">7</button>
+            <button class="calculattor-buttons">8</button>
+            <button class="calculattor-buttons">9</button>
+            <button class="calculattor-buttons">+</button>
+        </div>
+        <div class="button-container">
+            <button class="calculattor-buttons">4</button>
+            <button class="calculattor-buttons">5</button>
+            <button class="calculattor-buttons">6</button>
+            <button class="calculattor-buttons">-</button>
+        </div>
+        <div class="button-container">
+            <button class="calculattor-buttons">1</button>
+            <button class="calculattor-buttons">2</button>
+            <button class="calculattor-buttons">3</button>
+            <button class="calculattor-buttons">*</button>
+        </div>
+        <div class="button-container">
+            <button class="calculattor-buttons">/</button>
+            <button class="calculattor-buttons">0</button>
+            <button class="calculattor-buttons">.</button>
+            <button class="calculattor-buttons">=</button>
+        </div>
+    </div>
+</body>
+</html>
